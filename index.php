@@ -1,7 +1,14 @@
 <?php
+require_once 'libs/session.php';
+require_once 'libs/database.php';
+require_once 'libs/controller.php';
+require_once 'libs/view.php';
+require_once 'libs/model.php';
 
-require_once('./modulo-mcpa/controller/autoload.php');
-$autoload = new autoload();
+require_once 'libs/app.php';
 
-$route = isset($_GET['r']) ? $_GET['r'] : 'home'; //si no está definida la variable mandará a home
-$peu = new Router($route);
+require_once 'config/config.php';
+
+$app = new App();
+
+?>

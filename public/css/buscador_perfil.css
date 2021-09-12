@@ -1,0 +1,111 @@
+/* Buscador */
+.content-buscador{
+  font-family: Candara;
+  padding-left: 1.2em;
+  color: #5e5e5e;
+  
+}
+
+.content-buscador .textb{
+  margin-right: 1.5em;
+  border-radius: 4px;
+  border-color: #5e5e5e;
+  height: 34px;
+  width: 350px;
+}
+
+.text-resultados{
+  color: #5e5e5e;
+}
+.content-buscador hr{
+  margin-top: 0px;
+}
+.logob{
+  height: 30px;
+  width: 30px;
+  margin-right: 1em;
+}
+.titulobuscador{
+  margin-bottom: 0px;
+}
+.content-buscador .buttonb{
+  margin-right: 5em;
+   background-color: #00868F;
+   color: #fff;
+   border-radius: 17px;
+   padding-left: 1.2em;
+   padding-right: 1.2em;
+  border: none;
+}
+.content-buscador .buttonb:active{
+  background-color: #006970;
+  box-shadow: 0 2px rgb(204, 204, 204);
+  transform: translateY(3px);
+}
+
+.linea-buscador{
+  display: flex;
+}
+.titulobuscador{
+  font-size: 1.8em;
+  font-weight: bold;
+  
+}
+/* Fin Buscador */
+
+/* Inicio resultado buscador */
+
+.element{
+  border:1px solid #707070;
+  border-radius: 4px;
+  height: 170px;
+  width: 422px;
+  background-color: #f6f6f7;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.sameline{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.matricula{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.tipouser{
+  font-weight: bold;
+  font-style: italic;
+  font-size: .9em;
+  
+}
+
+.name{
+  align-items: center;
+}
+
+.botonver{
+  background-color: #0078D4;
+  border-radius: 4px;
+  color: #fff;
+  padding: 0 15px;
+}
+
+.botonimp{
+  background-color: #5e5e5e;
+  border-radius: 4px;
+  color: #fff;
+  padding: 0 25px;
+}
+.botones{
+  justify-content: space-between;
+}
+
+
+
+ul#override-ul {
+  margin-top: 4em;
+}
+/* Fin resultado buscador */
